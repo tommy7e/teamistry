@@ -27,11 +27,6 @@ pipeline {
                 bat 'docker ps'
             }
         }
-        stage("Run Composer Install") {
-            steps {
-                bat 'composer install'
-            }
-        }
         stage("Populate .env file") {
             steps {
                 bat '''
@@ -41,14 +36,16 @@ pipeline {
         }
         stage("Run Tests") {
             steps {
-                bat 'docker compose run --rm artisan test'
+                dir('src'){
+                    bat 'php artisan test'
+                }
             }
         }
     }
     post {
         always {
-            bat 'docker compose down --remove-orphans -v'
-            bat 'docker compose ps'
+            bat 'docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q) && docker network prune -f && docker volume prune -f'
+            bat 'docker ps'
         }
     }
 }
