@@ -12,5 +12,5 @@ Tutorial untuk pengguna baru dalam menggunakan teamistry
 6. Google cloud akan melakukan revisi dalam waktu: 1 min 30 detik
    Setelah ada perubahan pada repository github, service pada google cloud run akan otomatis melakukan revision: membuat ulang image dan mendeploynya pada cloud. Waktu yang dibutuhkan sekitar 1 menit 30 detik.
 8. Hasil perubahan dapat dilihat pada: https://teamistry-ir6oijtnxq-uc.a.run.app/
-   Klik pada link tersebut untuk melihat web tersebut sudah terlaunch via Google Cloud Run service. https://teamistry-ir6oijtnxq-uc.a.run.app/<route-yang-dituju> untuk pergi pada page di route lainnya 
+   Klik pada link tersebut untuk melihat web tersebut sudah terlaunch via Google Cloud Run service. https://teamistry-ir6oijtnxq-uc.a.run.app/(route-yang-dituju) untuk pergi pada page di route lainnya 
     
