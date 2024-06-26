@@ -10,12 +10,18 @@
             background-color: #f8f9fa; /* Light gray background */
             color: #343a40; /* Dark gray text */
             font-family: 'Arial', sans-serif;
+            scroll-behavior: smooth;
         }
         .navbar {
             background-color: #343a40; /* Dark navbar background */
+            padding: 0.5rem 1rem;
         }
         .navbar-brand {
             color: #ffffff; /* White text for brand */
+            font-size: 1.5rem;
+        }
+        .nav-link {
+            color: #ffffff !important;
         }
         .jumbotron {
             background: linear-gradient(to right, #007bff, #00c6ff); /* Gradient background */
@@ -25,15 +31,11 @@
             padding: 80px 20px;
             border-bottom-left-radius: 50% 20%;
             border-bottom-right-radius: 50% 20%;
+            animation: fadeIn 2s;
         }
-        .btn-primary {
-            background-color: #007bff;
-            border: none;
-            margin-right: 10px;
-        }
-        .btn-outline-light {
-            border-color: #ffffff;
-            color: #ffffff;
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
         .container {
             margin-top: 30px;
@@ -43,6 +45,10 @@
             border: none;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
         }
         footer {
             background-color: #343a40; /* Dark footer background */
@@ -73,8 +79,6 @@
         <div class="container">
             <h1>We provide solutions for your business!</h1>
             <p>Your partner in building efficient and effective teams.</p>
-            <a href="#" class="btn btn-primary btn-lg">Get Started</a>
-            <a href="#" class="btn btn-outline-light btn-lg">Our Services</a>
         </div>
     </div>
 
