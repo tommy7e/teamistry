@@ -14,7 +14,7 @@
             <!-- Brand -->
             <a class="navbar-brand" href="#">About Teamistry</a>
         </nav>
-        <h1>Route "About" Berhasil! tes123</h1>
+        <h1>Route "About" Berhasil Diakses!</h1>
         <br/>
         <hr/>
         <footer>
