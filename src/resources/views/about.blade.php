@@ -12,9 +12,9 @@
     <body>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">Company Profile of Teamistry</a>
+            <a class="navbar-brand" href="#">About Teamistry</a>
         </nav>
-        <h1>Landing Page Teamistry Berhasil!</h1>
+        <h1>Route "About" Berhasil!</h1>
         <br/>
         <hr/>
         <footer>
