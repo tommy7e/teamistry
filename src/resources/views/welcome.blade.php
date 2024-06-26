@@ -85,7 +85,7 @@
     <div class="container text-center">
         <h2>Tentang Kami</h2>
         <p>Teamistry berdedikasi untuk meningkatkan kerja sama tim dan kolaborasi melalui solusi inovatif. Tujuan kami adalah mendukung organisasi dalam mencapai potensi penuh mereka dengan mengoptimalkan dinamika dan kinerja tim.</p>
-        <p>Website ini dikembangkan sebagai bagian dari mata kuliah Pengembangan Sistem Operasi (PSO), menunjukkan keterampilan kami dalam menciptakan aplikasi web yang efisien dan ramah pengguna.</p>
+        <p>Website ini dikembangkan sebagai bagian dari mata kuliah Pengembangan Sistem Operasi (PSO)</p>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
