@@ -1,9 +1,9 @@
 Tutorial untuk pengguna baru dalam menggunakan teamistry
 
 1. Konfigurasi Repository
-   silahkan download ZIP pada repository ini dan buat pada repository yang diinginkan
+   silahkan download ZIP pada repository ini dan buat pada repository yang diinginkan. File yang dibutuhkan adalah semua kecuali folder src.
 2. Inisiasi framework laravel
-   dengan menggunakan vscode, buka terminal dan jalankan command composer create-project --prefer-dist laravel/laravel:^9.0 src. Maka dalam repositori tersebut akan terbentuk repository bernama src yang berisikan seluruh file laravel.
+   dengan menggunakan vscode, buka terminal dan jalankan command composer create-project --prefer-dist laravel/laravel:^9.0 src. Command tersebut akan menciptakan laravel versi 9. Maka dalam repositori tersebut akan terbentuk repository bernama src yang berisikan seluruh file laravel.
 3. Connect remote dengan github https://github.com/tommy7e/teamistry.git
    lakukan git init untuk menginisialisasi repository dengan git. Git remote add origin https://github.com/tommy7e/teamistry.git. Git fetch --all. Dan git reset --hard origin/master
 4. Lakukan editing yang diinginkan
