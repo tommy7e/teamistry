@@ -14,7 +14,7 @@
             <!-- Brand -->
             <a class="navbar-brand" href="#">Company Profile of Teamistry</a>
         </nav>
-        <h1>Landing Page Teamistry Berhasil! Mencoba</h1>
+        <h1>Landing Page Teamistry Berhasil! 123</h1>
         <br/>
         <hr/>
         <footer>
