@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <title>Teamistry</title>
     <meta charset="utf-8">
@@ -69,44 +69,45 @@
             <!-- Links -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tentang Kami</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
             </ul>
         </div>
     </nav>
     
     <div class="jumbotron">
         <div class="container">
-            <h1>We provide solutions for your business!</h1>
-            <p>Your partner in building efficient and effective teams.</p>
+            <h1>Kami menyediakan solusi untuk bisnis Anda!</h1>
+            <p>Partner Anda dalam membangun tim yang efisien dan efektif.</p>
         </div>
     </div>
 
     <div class="container text-center">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h2>Tentang Kami</h2>
+        <p>Teamistry berdedikasi untuk meningkatkan kerja sama tim dan kolaborasi melalui solusi inovatif. Tujuan kami adalah mendukung organisasi dalam mencapai potensi penuh mereka dengan mengoptimalkan dinamika dan kinerja tim.</p>
+        <p>Website ini dikembangkan sebagai bagian dari mata kuliah Pengembangan Sistem Operasi (PSO), menunjukkan keterampilan kami dalam menciptakan aplikasi web yang efisien dan ramah pengguna.</p>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Our Mission</h5>
-                        <p class="card-text">To foster collaboration and innovation within teams.</p>
+                        <h5 class="card-title">Misi Kami</h5>
+                        <p class="card-text">Mendorong kolaborasi dan inovasi dalam tim.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Our Vision</h5>
-                        <p class="card-text">To be the leading provider of team-building solutions worldwide.</p>
+                        <h5 class="card-title">Visi Kami</h5>
+                        <p class="card-text">Menjadi penyedia solusi pembentukan tim terkemuka di dunia.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Our Values</h5>
-                        <p class="card-text">Integrity, Collaboration, Innovation, Excellence.</p>
+                        <h5 class="card-title">Nilai Kami</h5>
+                        <p class="card-text">Integritas, Kolaborasi, Inovasi, Keunggulan.</p>
                     </div>
                 </div>
             </div>
