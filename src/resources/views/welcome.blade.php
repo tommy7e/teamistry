@@ -23,6 +23,17 @@
             text-align: center;
             margin-top: 20px;
             padding: 80px 20px;
+            border-bottom-left-radius: 50% 20%;
+            border-bottom-right-radius: 50% 20%;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            margin-right: 10px;
+        }
+        .btn-outline-light {
+            border-color: #ffffff;
+            color: #ffffff;
         }
         .container {
             margin-top: 30px;
@@ -60,12 +71,16 @@
     
     <div class="jumbotron">
         <div class="container">
-            <h1>Welcome to Teamistry</h1>
+            <h1>We provide solutions for your business!</h1>
             <p>Your partner in building efficient and effective teams.</p>
+            <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+            <a href="#" class="btn btn-outline-light btn-lg">Our Services</a>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container text-center">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
