@@ -9,6 +9,7 @@
         body {
             background-color: #f8f9fa; /* Light gray background */
             color: #343a40; /* Dark gray text */
+            font-family: 'Arial', sans-serif;
         }
         .navbar {
             background-color: #343a40; /* Dark navbar background */
@@ -17,17 +18,26 @@
             color: #ffffff; /* White text for brand */
         }
         .jumbotron {
-            background-color: #007bff; /* Blue jumbotron background */
+            background: linear-gradient(to right, #007bff, #00c6ff); /* Gradient background */
             color: #ffffff; /* White text */
             text-align: center;
             margin-top: 20px;
-            padding: 80px;
+            padding: 80px 20px;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        .card {
+            margin: 15px 0;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         footer {
             background-color: #343a40; /* Dark footer background */
             color: #ffffff; /* White text */
             text-align: center;
-            padding: 10px;
+            padding: 10px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -35,22 +45,58 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">Company Profile of Teamistry</a>
+            <a class="navbar-brand" href="#">Teamistry</a>
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
         </div>
     </nav>
     
     <div class="jumbotron">
         <div class="container">
-            <h1>Landing Page Teamistry Berhasil!</h1>
+            <h1>Welcome to Teamistry</h1>
+            <p>Your partner in building efficient and effective teams.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Our Mission</h5>
+                        <p class="card-text">To foster collaboration and innovation within teams.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Our Vision</h5>
+                        <p class="card-text">To be the leading provider of team-building solutions worldwide.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Our Values</h5>
+                        <p class="card-text">Integrity, Collaboration, Innovation, Excellence.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <footer>
         <div class="container">
-            <p>&copy; PSO Kelas B, 2024</p>
+            <p>&copy; PSO Kelas B, 2024. All Rights Reserved.</p>
         </div>
     </footer>
 
