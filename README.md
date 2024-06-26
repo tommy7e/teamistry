@@ -1,4 +1,4 @@
-Tutorial untuk pengguna baru dalam menggunakan teamistry
+Tutorial untuk pengguna dalam memanipulasi dan menggunakan teamistry
 
 1. Konfigurasi Repository: silahkan download ZIP pada repository ini dan buat pada repository/folder local yang diinginkan. File yang dibutuhkan adalah semua kecuali folder src.
 2. Inisiasi framework laravel: Buka repository dengan menggunakan vscode dan buka terminal. Jalankan command composer create-project --prefer-dist laravel/laravel:^9.0 src. Command tersebut akan menciptakan laravel versi 9. Maka dalam repositori tersebut akan terbentuk repository bernama src yang berisikan seluruh file laravel.
