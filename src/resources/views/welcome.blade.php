@@ -74,10 +74,10 @@
             </ul>
         </div>
     </nav>
-    
+
     <div class="jumbotron">
         <div class="container">
-            <h1>Kami menyediakan solusi untuk bisnis Anda!</h1>
+            <h1>Kami menyediakan solusi untuk bisnis Anda! Oke deh</h1>
             <p>Partner Anda dalam membangun tim yang efisien dan efektif.</p>
         </div>
     </div>
